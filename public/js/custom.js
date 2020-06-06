@@ -515,9 +515,9 @@ $document.ready(function () {
 	 * @license      MIT License
 	 * @link         http://cms.devoffice.com/coding-demo/mnemon1k/rd-toggle/demo/
 	 */
-	if ($.length) {
-		$.RDToggles();
-	}
+	// if ($.length) {
+	// 	$.RDToggles();
+	// }
 
 	/**
 	 * @module      Buttons
@@ -542,12 +542,12 @@ $document.ready(function () {
 	 * @see          http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
 	 * @license      MIT License
 	 */
-	if (isDesktop && !isNoviBuilder) {
-		$().UItoTop({
-			easingType: 'easeOutQuart',
-			containerClass: 'ui-to-top fl-bigmug-line-up98'
-		});
-	}
+	// if (isDesktop && !isNoviBuilder) {
+	// 	$().UItoTop({
+	// 		easingType: 'easeOutQuart',
+	// 		containerClass: 'ui-to-top fl-bigmug-line-up98'
+	// 	});
+	// }
 
 	/**
 	 * @module       RD Navbar
