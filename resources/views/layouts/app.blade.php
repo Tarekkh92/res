@@ -16,12 +16,12 @@
     </title>
 
     <!-- Scripts -->
-    <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
-    <script type="text/javascript" src="js/app.js"></script> 
-    <script type="text/javascript" src="js/core.min.js"></script> 
-    <script type="text/javascript" src="js/js/custom.js"></script> 
-    <!-- <script src="{{ asset('js/core.min.js') }}" defer></script> -->
-    <!-- <script src="{{ asset('js/custom.js') }}" defer></script> -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- <script type="text/javascript" src="js/app.js"></script>  -->
+    <!-- <script type="text/javascript" src="js/core.min.js"></script>  -->
+    <!-- <script type="text/javascript" src="js/js/custom.js"></script>  -->
+    <script src="{{ asset('js/core.min.js') }}" defer></script>
+    <script src="{{ asset('js/custom.js') }}" defer></script>
    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
